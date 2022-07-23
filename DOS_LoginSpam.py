@@ -37,7 +37,7 @@ while (1):
 		#passwords.close()
 
 		requests.post(url, headers=headers, allow_redirects=False, data={
-			## EDIT THESE ## 
+			## EDIT THESE BASED ON LOGIN FORM ## 
 			'user': username,
 			'pass': password,
 			'loginsubmit': "Submit"
